@@ -6,6 +6,8 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "/portfolio-api/", // 👈 bunu ekle
+
   plugins: [
     unocss(),
     react(),
@@ -15,6 +17,7 @@ export default defineConfig({
       dirs: ["src/hooks", "src/stores", "src/components/**"]
     })
   ],
+
   resolve: {
     alias: {
       "~/": `${path.resolve(__dirname, "src")}/`
