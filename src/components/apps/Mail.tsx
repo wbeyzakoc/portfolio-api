@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 const FOLDERS = ["Inbox", "Sent", "Drafts", "Starred", "Trash"];
 const API_BASE_URL =
   (import.meta.env.VITE_API_BASE_URL as string | undefined)?.replace(/\/$/, "") ||
+  (import.meta.env.PROD ? "https://portfolio-api-1-yft7.onrender.com" : undefined) ||
   "http://localhost:5099";
 
 export default function Mail() {
