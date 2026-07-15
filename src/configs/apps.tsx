@@ -52,7 +52,7 @@ const apps: AppsData[] = [
     desktop: false,
     hideOnMobile: true,
     img: "img/icons/github.png",
-    link: "https://github.com/aakashsharma003/macOS-Portfolio",
+    link: "https://github.com/wbeyzakoc",
   },
   {
     id: "spotify",
