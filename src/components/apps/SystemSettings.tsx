@@ -45,38 +45,38 @@ interface PanelItem {
 }
 
 const PANEL_ITEMS: PanelItem[] = [
-  { id: "wifi", label: "Wi-Fi", icon: "/img/icons/sf-icons/wifi.svg", color: "#007AFF" },
-  { id: "bluetooth", label: "Bluetooth", icon: "/img/icons/sf-icons/bluetooth.svg", color: "#007AFF" },
-  { id: "network", label: "Network", icon: "/img/icons/sf-icons/network.svg", color: "#007AFF" },
-  { id: "notifications", label: "Notifications", icon: "/img/icons/sf-icons/notifications.svg", color: "#FF3B30" },
-  { id: "sound", label: "Sound", icon: "/img/icons/sf-icons/sound.svg", color: "#FF2D55" },
-  { id: "focus", label: "Focus", icon: "/img/icons/sf-icons/focus.svg", color: "#5856D6" },
-  { id: "screen-time", label: "Screen Time", icon: "/img/icons/sf-icons/screen-time.svg", color: "#5856D6" },
-  { id: "general", label: "General", icon: "/img/icons/sf-icons/general.svg", color: "#8E8E93" },
-  { id: "appearance", label: "Appearance", icon: "/img/icons/sf-icons/appearance.svg", color: "#000000" },
-  { id: "accessibility", label: "Accessibility", icon: "/img/icons/sf-icons/accessibility.svg", color: "#007AFF" },
-  { id: "control-center", label: "Control Center", icon: "/img/icons/sf-icons/control-center.svg", color: "#8E8E93" },
-  { id: "siri", label: "Siri & Spotlight", icon: "/img/icons/sf-icons/siri.svg", color: "#AF52DE" },
-  { id: "spotlight", label: "Spotlight", icon: "/img/icons/sf-icons/spotlight.svg", color: "#8E8E93" },
-  { id: "privacy", label: "Privacy & Security", icon: "/img/icons/sf-icons/privacy.svg", color: "#007AFF" },
-  { id: "desktop", label: "Desktop", icon: "/img/icons/sf-icons/desktop.svg", color: "#6E6E73" },
-  { id: "dock", label: "Dock & Menu Bar", icon: "/img/icons/sf-icons/dock.svg", color: "#5AC8FA" },
-  { id: "displays", label: "Displays", icon: "/img/icons/sf-icons/displays.svg", color: "#007AFF" },
-  { id: "wallpaper", label: "Wallpaper", icon: "/img/icons/sf-icons/wallpaper.svg", color: "#5AC8FA" },
-  { id: "battery", label: "Battery", icon: "/img/icons/sf-icons/battery.svg", color: "#34C759" },
-  { id: "storage", label: "Storage", icon: "/img/icons/sf-icons/storage.svg", color: "#5856D6" },
-  { id: "cloud", label: "Cloud Storage", icon: "/img/icons/sf-icons/cloud.svg", color: "#007AFF" },
-  { id: "touch-id", label: "Touch ID & Password", icon: "/img/icons/sf-icons/touch-id.svg", color: "#FF2D55" },
-  { id: "users", label: "Users & Groups", icon: "/img/icons/sf-icons/users.svg", color: "#8E8E93" },
-  { id: "internet-accounts", label: "Internet Accounts", icon: "/img/icons/sf-icons/internet-accounts.svg", color: "#007AFF" },
-  { id: "game-center", label: "Game Center", icon: "/img/icons/sf-icons/game-center.svg", color: "#34C759" },
-  { id: "wallet", label: "Wallet & Apple Pay", icon: "/img/icons/sf-icons/wallet.svg", color: "#1c1c1e" },
-  { id: "keyboard", label: "Keyboard", icon: "/img/icons/sf-icons/keyboard.svg", color: "#8E8E93" },
-  { id: "mouse", label: "Mouse", icon: "/img/icons/sf-icons/mouse.svg", color: "#8E8E93" },
-  { id: "trackpad", label: "Trackpad", icon: "/img/icons/sf-icons/trackpad.svg", color: "#8E8E93" },
-  { id: "printers", label: "Printers & Scanners", icon: "/img/icons/sf-icons/printer.svg", color: "#8E8E93" },
-  { id: "weather", label: "Weather", icon: "/img/icons/sf-icons/sun.max.svg", color: "#007AFF" },
-  { id: "about", label: "About", icon: "/img/icons/sf-icons/about.svg", color: "#8E8E93" }
+  { id: "wifi", label: "Wi-Fi", icon: "img/icons/sf-icons/wifi.svg", color: "#007AFF" },
+  { id: "bluetooth", label: "Bluetooth", icon: "img/icons/sf-icons/bluetooth.svg", color: "#007AFF" },
+  { id: "network", label: "Network", icon: "img/icons/sf-icons/network.svg", color: "#007AFF" },
+  { id: "notifications", label: "Notifications", icon: "img/icons/sf-icons/notifications.svg", color: "#FF3B30" },
+  { id: "sound", label: "Sound", icon: "img/icons/sf-icons/sound.svg", color: "#FF2D55" },
+  { id: "focus", label: "Focus", icon: "img/icons/sf-icons/focus.svg", color: "#5856D6" },
+  { id: "screen-time", label: "Screen Time", icon: "img/icons/sf-icons/screen-time.svg", color: "#5856D6" },
+  { id: "general", label: "General", icon: "img/icons/sf-icons/general.svg", color: "#8E8E93" },
+  { id: "appearance", label: "Appearance", icon: "img/icons/sf-icons/appearance.svg", color: "#000000" },
+  { id: "accessibility", label: "Accessibility", icon: "img/icons/sf-icons/accessibility.svg", color: "#007AFF" },
+  { id: "control-center", label: "Control Center", icon: "img/icons/sf-icons/control-center.svg", color: "#8E8E93" },
+  { id: "siri", label: "Siri & Spotlight", icon: "img/icons/sf-icons/siri.svg", color: "#AF52DE" },
+  { id: "spotlight", label: "Spotlight", icon: "img/icons/sf-icons/spotlight.svg", color: "#8E8E93" },
+  { id: "privacy", label: "Privacy & Security", icon: "img/icons/sf-icons/privacy.svg", color: "#007AFF" },
+  { id: "desktop", label: "Desktop", icon: "img/icons/sf-icons/desktop.svg", color: "#6E6E73" },
+  { id: "dock", label: "Dock & Menu Bar", icon: "img/icons/sf-icons/dock.svg", color: "#5AC8FA" },
+  { id: "displays", label: "Displays", icon: "img/icons/sf-icons/displays.svg", color: "#007AFF" },
+  { id: "wallpaper", label: "Wallpaper", icon: "img/icons/sf-icons/wallpaper.svg", color: "#5AC8FA" },
+  { id: "battery", label: "Battery", icon: "img/icons/sf-icons/battery.svg", color: "#34C759" },
+  { id: "storage", label: "Storage", icon: "img/icons/sf-icons/storage.svg", color: "#5856D6" },
+  { id: "cloud", label: "Cloud Storage", icon: "img/icons/sf-icons/cloud.svg", color: "#007AFF" },
+  { id: "touch-id", label: "Touch ID & Password", icon: "img/icons/sf-icons/touch-id.svg", color: "#FF2D55" },
+  { id: "users", label: "Users & Groups", icon: "img/icons/sf-icons/users.svg", color: "#8E8E93" },
+  { id: "internet-accounts", label: "Internet Accounts", icon: "img/icons/sf-icons/internet-accounts.svg", color: "#007AFF" },
+  { id: "game-center", label: "Game Center", icon: "img/icons/sf-icons/game-center.svg", color: "#34C759" },
+  { id: "wallet", label: "Wallet & Apple Pay", icon: "img/icons/sf-icons/wallet.svg", color: "#1c1c1e" },
+  { id: "keyboard", label: "Keyboard", icon: "img/icons/sf-icons/keyboard.svg", color: "#8E8E93" },
+  { id: "mouse", label: "Mouse", icon: "img/icons/sf-icons/mouse.svg", color: "#8E8E93" },
+  { id: "trackpad", label: "Trackpad", icon: "img/icons/sf-icons/trackpad.svg", color: "#8E8E93" },
+  { id: "printers", label: "Printers & Scanners", icon: "img/icons/sf-icons/printer.svg", color: "#8E8E93" },
+  { id: "weather", label: "Weather", icon: "img/icons/sf-icons/sun.max.svg", color: "#007AFF" },
+  { id: "about", label: "About", icon: "img/icons/sf-icons/about.svg", color: "#8E8E93" }
 ];
 
 const PANEL_GROUPS = [
@@ -720,7 +720,7 @@ const SoundPanel = () => {
       <Card>
         <Row label="Output Volume">
           <div style={{ display: "flex", alignItems: "center", gap: "8px", flex: 1, justifyContent: "flex-end" }}>
-            <img src="/img/icons/sf-icons/audio.svg" alt="audio" style={{ width: "16px", height: "16px", filter: dark ? "invert(1)" : "none", opacity: 0.5 }} />
+            <img src="img/icons/sf-icons/audio.svg" alt="audio" style={{ width: "16px", height: "16px", filter: dark ? "invert(1)" : "none", opacity: 0.5 }} />
             <input
               type="range"
               min="0"
@@ -729,7 +729,7 @@ const SoundPanel = () => {
               onChange={(e) => setVolume(Number(e.target.value))}
               style={{ width: "120px", accentColor: "#007AFF" }}
             />
-            <img src="/img/icons/sf-icons/sound.svg" alt="sound" style={{ width: "16px", height: "16px", filter: dark ? "invert(1)" : "none", opacity: 0.5 }} />
+            <img src="img/icons/sf-icons/sound.svg" alt="sound" style={{ width: "16px", height: "16px", filter: dark ? "invert(1)" : "none", opacity: 0.5 }} />
             <span style={{ fontSize: "11px", color: dark ? "rgba(255,255,255,0.5)" : "rgba(0,0,0,0.5)", minWidth: "30px", textAlign: "right" }}>
               {volume}%
             </span>
@@ -843,7 +843,7 @@ const DisplaysPanel = () => {
       <Card>
         <Row label="Brightness">
           <div style={{ display: "flex", alignItems: "center", gap: "8px", flex: 1, justifyContent: "flex-end" }}>
-            <img src="/img/icons/sf-icons/display-brightness.svg" alt="dim" style={{ width: "16px", height: "16px", filter: dark ? "invert(1)" : "none", opacity: 0.5 }} />
+            <img src="img/icons/sf-icons/display-brightness.svg" alt="dim" style={{ width: "16px", height: "16px", filter: dark ? "invert(1)" : "none", opacity: 0.5 }} />
             <input
               type="range"
               min="10"
@@ -852,7 +852,7 @@ const DisplaysPanel = () => {
               onChange={(e) => setBrightness(Number(e.target.value))}
               style={{ width: "120px", accentColor: "#007AFF" }}
             />
-            <img src="/img/icons/sf-icons/sun.svg" alt="sun" style={{ width: "16px", height: "16px", filter: dark ? "invert(1)" : "none", opacity: 0.5 }} />
+            <img src="img/icons/sf-icons/sun.svg" alt="sun" style={{ width: "16px", height: "16px", filter: dark ? "invert(1)" : "none", opacity: 0.5 }} />
             <span style={{ fontSize: "11px", color: dark ? "rgba(255,255,255,0.5)" : "rgba(0,0,0,0.5)", minWidth: "30px", textAlign: "right" }}>
               {brightness}%
             </span>
@@ -1078,7 +1078,7 @@ const CloudPanel = () => {
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "16px" }}>
             <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
               <span style={{ fontSize: "24px" }}>
-                <img src="/img/icons/sf-icons/cloud.svg" alt="Google Drive" style={{ width: "24px", height: "24px", filter: dark ? "invert(1)" : "none" }} />
+                <img src="img/icons/sf-icons/cloud.svg" alt="Google Drive" style={{ width: "24px", height: "24px", filter: dark ? "invert(1)" : "none" }} />
               </span>
               <div>
                 <div style={{ fontWeight: 600, fontSize: "13px", color: dark ? "#fff" : "#1c1c1e" }}>Google Drive</div>
@@ -1099,7 +1099,7 @@ const CloudPanel = () => {
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "16px" }}>
             <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
               <span style={{ fontSize: "24px" }}>
-                <img src="/img/icons/sf-icons/cloud.svg" alt="Dropbox" style={{ width: "24px", height: "24px", filter: dark ? "invert(1)" : "none" }} />
+                <img src="img/icons/sf-icons/cloud.svg" alt="Dropbox" style={{ width: "24px", height: "24px", filter: dark ? "invert(1)" : "none" }} />
               </span>
               <div>
                 <div style={{ fontWeight: 600, fontSize: "13px", color: dark ? "#fff" : "#1c1c1e" }}>Dropbox</div>
@@ -1117,7 +1117,7 @@ const CloudPanel = () => {
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
             <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
               <span style={{ fontSize: "24px" }}>
-                <img src="/img/icons/sf-icons/cloud.svg" alt="OneDrive" style={{ width: "24px", height: "24px", filter: dark ? "invert(1)" : "none" }} />
+                <img src="img/icons/sf-icons/cloud.svg" alt="OneDrive" style={{ width: "24px", height: "24px", filter: dark ? "invert(1)" : "none" }} />
               </span>
               <div>
                 <div style={{ fontWeight: 600, fontSize: "13px", color: dark ? "#fff" : "#1c1c1e" }}>OneDrive</div>
@@ -1144,7 +1144,7 @@ const PrivacyPanel = () => {
     { name: "Microphone", icon: "i-ph-microphone", apps: ["FaceTime", "Safari", "Music"] },
     { name: "Location Services", icon: "i-ph-map-pin", apps: ["Safari", "Maps"] },
     { name: "Screen Recording", icon: "i-ph-record", apps: ["Terminal"] },
-    { name: "Full Disk Access", icon: "/img/icons/sf-icons/folder.svg", apps: ["Terminal"] },
+    { name: "Full Disk Access", icon: "img/icons/sf-icons/folder.svg", apps: ["Terminal"] },
   ];
 
   const dark = useStore((s) => s.dark);
@@ -1345,7 +1345,7 @@ export default function SystemSettings() {
               padding: isMobile ? "8px 12px" : "5px 10px",
             }}
           >
-            <img src="/img/icons/sf-icons/search.svg" alt="search" style={{ width: "12px", height: "12px", filter: dark ? "invert(1)" : "none", opacity: 0.5 }} />
+            <img src="img/icons/sf-icons/search.svg" alt="search" style={{ width: "12px", height: "12px", filter: dark ? "invert(1)" : "none", opacity: 0.5 }} />
             <input
               placeholder="Search settings"
               value={search}
@@ -1390,7 +1390,7 @@ export default function SystemSettings() {
                   overflow: "hidden"
                 }}
               >
-                <img src="/img/ui/avatar.jpg" alt="profile" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+                <img src="img/ui/avatar.jpg" alt="profile" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
               </div>
               <div>
                 <div style={{ fontSize: "20px", fontWeight: 400, color: dark ? "#fff" : "#000", letterSpacing: "-0.5px" }}>Akash Sharma</div>
@@ -1428,7 +1428,7 @@ export default function SystemSettings() {
                       </div>
                       <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", flex: 1, padding: "12px 16px 12px 0", borderBottom: idx !== filtered.length - 1 ? (dark ? "0.5px solid rgba(255,255,255,0.15)" : "0.5px solid rgba(0,0,0,0.1)") : "none" }}>
                         <span style={{ fontSize: "16px", color: dark ? "#fff" : "#000" }}>{item.label}</span>
-                        <img src="/img/icons/sf-icons/caret-right.svg" alt="chevron" style={{ width: "12px", height: "12px", opacity: 0.3, filter: dark ? "invert(1)" : "none", transform: "rotate(180deg)" }} />
+                        <img src="img/icons/sf-icons/caret-right.svg" alt="chevron" style={{ width: "12px", height: "12px", opacity: 0.3, filter: dark ? "invert(1)" : "none", transform: "rotate(180deg)" }} />
                       </div>
                     </motion.button>
                   );
@@ -1466,7 +1466,7 @@ export default function SystemSettings() {
                           </div>
                           <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", flex: 1, padding: "12px 16px 12px 0", borderBottom: idx !== groupItems.length - 1 ? (dark ? "0.5px solid rgba(255,255,255,0.15)" : "0.5px solid rgba(0,0,0,0.1)") : "none" }}>
                             <span style={{ fontSize: "16px", color: dark ? "#fff" : "#000" }}>{item.label}</span>
-                            <img src="/img/icons/sf-icons/caret-right.svg" alt="chevron" style={{ width: "12px", height: "12px", opacity: 0.3, filter: dark ? "invert(1)" : "none", transform: "rotate(180deg)" }} />
+                            <img src="img/icons/sf-icons/caret-right.svg" alt="chevron" style={{ width: "12px", height: "12px", opacity: 0.3, filter: dark ? "invert(1)" : "none", transform: "rotate(180deg)" }} />
                           </div>
                         </motion.button>
                       );
@@ -1580,7 +1580,7 @@ export default function SystemSettings() {
                   background: "none", border: "none", color: "#007AFF", fontSize: "16px", display: "flex", alignItems: "center", gap: "4px", cursor: "pointer", padding: 0
                 }}
               >
-                <img src="/img/icons/sf-icons/caret-right.svg" alt="back" style={{ width: "12px", height: "12px", transform: "rotate(180deg)", filter: "invert(40%) sepia(100%) saturate(3000%) hue-rotate(200deg) brightness(100%) contrast(100%)" }} />
+                <img src="img/icons/sf-icons/caret-right.svg" alt="back" style={{ width: "12px", height: "12px", transform: "rotate(180deg)", filter: "invert(40%) sepia(100%) saturate(3000%) hue-rotate(200deg) brightness(100%) contrast(100%)" }} />
                 Settings
               </button>
             </div>

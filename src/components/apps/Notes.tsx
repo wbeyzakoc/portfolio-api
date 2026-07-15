@@ -300,7 +300,7 @@ export default function Notes() {
             }}
           >
             <div style={{ display: "flex", alignItems: "center", gap: "6px" }}>
-              <img src="/img/icons/sf-icons/folder.svg" alt="Folder" style={{ width: "13px", height: "13px", opacity: 0.8 }} className="dark:invert" />
+              <img src="img/icons/sf-icons/folder.svg" alt="Folder" style={{ width: "13px", height: "13px", opacity: 0.8 }} className="dark:invert" />
               <span style={{ fontSize: "12px", fontWeight: activeSection === "notes" ? 600 : 400, color: activeSection === "notes" ? "#007AFF" : "#1c1c1e" }}>
                 Notes
               </span>
@@ -325,7 +325,7 @@ export default function Notes() {
             }}
           >
             <div style={{ display: "flex", alignItems: "center", gap: "6px" }}>
-              <img src="/img/icons/sf-icons/folder-user.svg" alt="Shared Folder" style={{ width: "13px", height: "13px", opacity: 0.6 }} className="dark:invert" />
+              <img src="img/icons/sf-icons/folder-user.svg" alt="Shared Folder" style={{ width: "13px", height: "13px", opacity: 0.6 }} className="dark:invert" />
               <span style={{ fontSize: "12px", color: "#1c1c1e" }}>Shared</span>
             </div>
             <span style={{ fontSize: "11px", color: "rgba(0,0,0,0.35)", background: "rgba(0,0,0,0.07)", borderRadius: "8px", padding: "1px 6px" }}>1</span>
@@ -392,7 +392,7 @@ export default function Notes() {
               padding: "4px 8px",
             }}
           >
-            <img src="/img/icons/sf-icons/search.svg" alt="Search" style={{ width: "11px", height: "11px", opacity: 0.5 }} className="dark:invert" />
+            <img src="img/icons/sf-icons/search.svg" alt="Search" style={{ width: "11px", height: "11px", opacity: 0.5 }} className="dark:invert" />
             <input
               placeholder="Search"
               value={search}
@@ -496,7 +496,7 @@ export default function Notes() {
               title="Search"
               style={{ background: "none", border: "none", cursor: "pointer", padding: "4px 6px", borderRadius: "6px", opacity: 0.55 }}
             >
-              <img src="/img/icons/sf-icons/search.svg" alt="Search" style={{ width: "16px", height: "16px", opacity: 0.7 }} className="dark:invert" />
+              <img src="img/icons/sf-icons/search.svg" alt="Search" style={{ width: "16px", height: "16px", opacity: 0.7 }} className="dark:invert" />
             </button>
             {/* Delete */}
             <button
@@ -504,7 +504,7 @@ export default function Notes() {
               title="Delete"
               style={{ background: "none", border: "none", cursor: "pointer", padding: "4px 6px", borderRadius: "6px", opacity: 0.4 }}
             >
-              <img src="/img/icons/sf-icons/trash.svg" alt="Trash" style={{ width: "14px", height: "14px", opacity: 0.7 }} className="dark:invert" />
+              <img src="img/icons/sf-icons/trash.svg" alt="Trash" style={{ width: "14px", height: "14px", opacity: 0.7 }} className="dark:invert" />
             </button>
           </div>
 

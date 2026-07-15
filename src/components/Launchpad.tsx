@@ -126,7 +126,7 @@ export default function Launchpad({ show, toggleLaunchpad }: LaunchpadProps) {
               onBlur={() => setFocus(false)}
             >
               <div className={`${focus ? "w-6 duration-200" : "w-26 delay-250"} hstack justify-end`}>
-                <img src="/img/icons/sf-icons/search.svg" alt="Search" className="ml-2" style={{ width: "16px", height: "16px", filter: "invert(1)", opacity: 0.6 }} />
+                <img src="img/icons/sf-icons/search.svg" alt="Search" className="ml-2" style={{ width: "16px", height: "16px", filter: "invert(1)", opacity: 0.6 }} />
               </div>
               <input
                 className="flex-1 min-w-0 no-outline bg-transparent px-1.5 text-sm text-white"

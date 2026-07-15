@@ -618,7 +618,7 @@ export default function Siri({ closeSiri }: { closeSiri?: () => void }) {
 
   return (
     <div className="flex items-start justify-end gap-4 relative pointer-events-auto group mt-4 mr-4">
-      <audio id="siri-audio" src="/music/siri.mp3" preload="auto" className="hidden" />
+      <audio id="siri-audio" src="music/siri.mp3" preload="auto" className="hidden" />
       <style>{`
         @keyframes siri-aura-pulse {
           0%, 100% { opacity: 0; transform: scale(0.8); }
@@ -650,7 +650,7 @@ export default function Siri({ closeSiri }: { closeSiri?: () => void }) {
         {/* Header containing Siri icon and Title */}
         <div className="flex items-center gap-2 mb-2">
           <div className="w-5 h-5 rounded-md overflow-hidden bg-black/5 dark:bg-white/5 flex items-center justify-center">
-            <img src="/img/icons/siri.png" className="w-full h-full object-cover" alt="Siri" />
+            <img src="img/icons/siri.png" className="w-full h-full object-cover" alt="Siri" />
           </div>
           <span className="text-[13px] font-semibold text-black/60 dark:text-white/60 tracking-wide uppercase">
             Siri
@@ -705,7 +705,7 @@ export default function Siri({ closeSiri }: { closeSiri?: () => void }) {
           {/* Specifically removed white backdrop behind the video */}
 
           <video
-            src="/img/ui/siri2.webm"
+            src="img/ui/siri2.webm"
             autoPlay
             loop
             muted

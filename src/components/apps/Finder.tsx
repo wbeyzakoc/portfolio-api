@@ -37,7 +37,7 @@ const FILESYSTEM: FileItem[] = [
             name:"Dashboard.png",
             kind:"file",
             ext:"png",
-            image:"/img/myphoto/career1.jpg"
+            image:"img/myphoto/career1.jpg"
           },
 
           {
@@ -45,7 +45,7 @@ const FILESYSTEM: FileItem[] = [
             name:"CV Analysis.png",
             kind:"file",
             ext:"png",
-            image:"/img/myphoto/career2.jpg"
+            image:"img/myphoto/career2.jpg"
           },
 
           {
@@ -53,7 +53,7 @@ const FILESYSTEM: FileItem[] = [
             name:"Analytics.png",
             kind:"file",
             ext:"png",
-            image:"/img/myphoto/career3.jpg"
+            image:"img/myphoto/career3.jpg"
           },
 
 
@@ -114,7 +114,7 @@ AI:
             name:"Prediction.png",
             kind:"file",
             ext:"png",
-             image:"/img/myphoto/rps1.jpg"
+             image:"img/myphoto/rps1.jpg"
           },
 
           {
@@ -122,7 +122,7 @@ AI:
             name:"Prediction.png",
             kind:"file",
             ext:"png",
-             image:"/img/myphoto/rps2.jpg"
+             image:"img/myphoto/rps2.jpg"
 
           },
 
@@ -131,7 +131,7 @@ AI:
             name:"Prediction.png",
             kind:"file",
             ext:"png",
-             image:"/img/myphoto/rps3.jpg"
+             image:"img/myphoto/rps3.jpg"
           },
 
 
@@ -173,7 +173,7 @@ YOLOv8 kullanılarak gerçek zamanlı el hareketi tanıma sistemi geliştirildi.
             name:"Homepage.png",
             kind:"file",
             ext:"mp4",
-          video:"/img/myphoto/oraldent.mp4"
+          video:"img/myphoto/oraldent.mp4"
           },
 
 
@@ -209,21 +209,21 @@ Responsive ve kullanıcı dostu arayüz geliştirildi.
             name:"Game Screen.png",
             kind:"file",
             ext:"png",
-             image:"/img/myphoto/hunt1.jpg"
+             image:"img/myphoto/hunt1.jpg"
           },
    {
             id:"treasure-game2",
             name:"Game Screen.png",
             kind:"file",
             ext:"png",
-             image:"/img/myphoto/hunt2.jpg"
+             image:"img/myphoto/hunt2.jpg"
           },
              {
             id:"treasure-game3",
             name:"Game Screen.png",
             kind:"file",
             ext:"png",
-             image:"/img/myphoto/hunt3.jpg"
+             image:"img/myphoto/hunt3.jpg"
           },
 
           {
@@ -263,7 +263,7 @@ Kullanılan yapılar:
             name:"System.png",
             kind:"file",
             ext:"png",
-               image:"/img/myphoto/tekno.jpg"
+               image:"img/myphoto/tekno.jpg"
           },
            {
             id:"kilowizard-readme",
@@ -302,7 +302,7 @@ if(item.kind==="folder"){
 return(
 <img
 
-src="/img/icons/folder-generic.png"
+src="img/icons/folder-generic.png"
 
 style={{
 width:size,
@@ -322,7 +322,7 @@ if(item.ext==="md"){
 return(
 <img
 
-src="/img/icons/codefile.png"
+src="img/icons/codefile.png"
 
 style={{
 width:size,
@@ -412,7 +412,7 @@ borderRadius:8
 return(
 <img
 
-src="/img/icons/codefile.png"
+src="img/icons/codefile.png"
 
 style={{
 width:size,

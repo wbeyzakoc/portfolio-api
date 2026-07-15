@@ -238,7 +238,7 @@ export default function BeyzaSearch() {
               }}
             >
               <img
-                src="/img/myphoto/pp.jpg"
+                src="img/myphoto/pp.jpg"
                 style={{
                   width: "100%",
                   height: "260px",

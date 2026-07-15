@@ -10,13 +10,13 @@ interface Photo {
 
 // Using Picsum for placeholder photos
 const PHOTOS: Photo[] = [
-   { id: "1", url: "/img/myphoto/ben.JPG", label: "beyza ", date: "Jun 1, 2025" },
-   { id: "2", url: "/img/myphoto/book.JPG", label: "..", date: "Jun 1, 2025" },
-   { id: "3", url: "/img/myphoto/karamel.JPG", label: "karamel", date: "Jun 1, 2025" },
-   { id: "4", url: "/img/myphoto/arkadas.jpg", label: "proje ödevleri", date: "Jun 1, 2025" },
-   { id: "5", url: "/img/myphoto/vibe.jpg", label: "", date: "Jun 1, 2025" },
-      { id: "6", url: "/img/myphoto/tekno1.jpg", label: "teknofest", date: "Jun 1, 2025" },
-    { id: "7", url: "/img/myphoto/kon.jpg", label: "", date: "Jun 1, 2025" }
+   { id: "1", url: "img/myphoto/ben.JPG", label: "beyza ", date: "Jun 1, 2025" },
+   { id: "2", url: "img/myphoto/book.JPG", label: "..", date: "Jun 1, 2025" },
+   { id: "3", url: "img/myphoto/karamel.JPG", label: "karamel", date: "Jun 1, 2025" },
+   { id: "4", url: "img/myphoto/arkadas.jpg", label: "proje ödevleri", date: "Jun 1, 2025" },
+   { id: "5", url: "img/myphoto/vibe.jpg", label: "", date: "Jun 1, 2025" },
+      { id: "6", url: "img/myphoto/tekno1.jpg", label: "teknofest", date: "Jun 1, 2025" },
+    { id: "7", url: "img/myphoto/kon.jpg", label: "", date: "Jun 1, 2025" }
 ];
 
 const ALBUMS = [
