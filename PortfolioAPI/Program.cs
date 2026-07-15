@@ -7,8 +7,28 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("PortfolioFrontend", policy =>
     {
-        var allowedOrigins = builder.Configuration.GetSection("Cors:AllowedOrigins").Get<string[]>()
-            ?? new[] { "http://localhost:5173" };
+        var configuredOrigins = builder.Configuration.GetSection("Cors:AllowedOrigins").Get<string[]>()
+            ?? Array.Empty<string>();
+
+        var allowedOrigins = configuredOrigins
+            .Concat(new[]
+            {
+                "http://localhost:5173",
+                "https://wbeyzakoc.github.io"
+            })
+            .Select(origin => origin.Trim())
+            .Where(origin => !string.IsNullOrWhiteSpace(origin))
+            .Select(origin =>
+            {
+                if (Uri.TryCreate(origin, UriKind.Absolute, out var uri))
+                {
+                    return uri.GetLeftPart(UriPartial.Authority);
+                }
+
+                return origin.TrimEnd('/');
+            })
+            .Distinct()
+            .ToArray();
 
         policy
             .WithOrigins(allowedOrigins)
