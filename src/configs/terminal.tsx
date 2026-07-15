@@ -60,64 +60,15 @@ const terminal: TerminalData[] = [
                 @aakashsharma
               </a>
             </li>
-            <li>
-              Linkedin:{" "}
-              <a
-                className="text-blue-300"
-                href="https://www.linkedin.com/in/aakashsharma003"
-                target="_blank"
-                rel="noreferrer"
-              >
-                akash-sharma
-              </a>
-            </li>
-            <li>
-              Personal Website:{" "}
-              <a
-                className="text-blue-300"
-                href="https://aakash-sharma.vercel.app"
-                target="_blank"
-                rel="noreferrer"
-              >
-                https://aakash-sharma.vercel.app
-              </a>
-            </li>
-            <li>
-              X:{" "}
-              <a
-                className="text-blue-300"
-                href="https://x.com/aakashsharma003"
-                target="_blank"
-                rel="noreferrer"
-              >
-               find me on x.com
-              </a>
-            </li>
+            
+            
+           
           </ul>
         )
       }
     ]
   },
-  {
-    id: "about-dream",
-    title: "my-dream.cpp",
-    type: "file",
-    content: (
-      <div className="py-1">
-        <div>
-          <span className="text-yellow-400">while</span>(
-          <span className="text-blue-400">sleeping</span>) <span>{"{"}</span>
-        </div>
-        <div>
-          <span className="text-blue-400 ml-9">money</span>
-          <span className="text-yellow-400">++</span>;
-        </div>
-        <div>
-          <span>{"}"}</span>
-        </div>
-      </div>
-    )
-  }
+  
 ];
 
 export default terminal;

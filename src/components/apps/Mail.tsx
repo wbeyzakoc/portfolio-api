@@ -2,6 +2,9 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const FOLDERS = ["Inbox", "Sent", "Drafts", "Starred", "Trash"];
+const API_BASE_URL =
+  (import.meta.env.VITE_API_BASE_URL as string | undefined)?.replace(/\/$/, "") ||
+  "http://localhost:5099";
 
 export default function Mail() {
   const [activeFolder, setActiveFolder] = useState("Inbox");
@@ -12,36 +15,35 @@ export default function Mail() {
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
 
-const sendMail = async () => {
-  try {
-    const response = await fetch("http://localhost:5149/api/mail/send", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        from,
-        subject,
-        message,
-      }),
-    });
+  const sendMail = async () => {
+    try {
+      const response = await fetch(`${API_BASE_URL}/api/mail/send`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          from,
+          subject,
+          message,
+        }),
+      });
 
-    console.log(response.status);
+      console.log(response.status);
 
-    const text = await response.text();
-    console.log(text);
+      const text = await response.text();
+      console.log(text);
 
-    if (!response.ok) {
-      throw new Error(text);
+      if (!response.ok) {
+        throw new Error(text);
+      }
+
+      alert("Mail gönderildi!");
+    } catch (err) {
+      console.error(err);
+      alert(String(err));
     }
-
-    alert("Mail gönderildi!");
-
-  } catch (err) {
-    console.error(err);
-    alert(String(err));
-  }
-};
+  };
 
   return (
     <div
